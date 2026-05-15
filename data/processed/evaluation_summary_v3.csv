@@ -1,0 +1,3 @@
+method,Recall@5,Precision@5,MRR@5
+Clean Dense Retrieval,1.0,0.6,0.8666666666666666
+Clean Dense Retrieval + Cross-Encoder Reranking,1.0,0.86,0.95
