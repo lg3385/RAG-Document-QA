@@ -1,0 +1,89 @@
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.rag_env/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# IDE / editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Raw data files
+# Keep raw PDFs local and avoid pushing large files to GitHub
+# =========================
+data/raw/*
+!data/raw/.gitkeep
+
+# =========================
+# Large generated artifacts
+# Embeddings and vector indexes can be regenerated
+# =========================
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.faiss
+*.index
+
+# =========================
+# Model/cache directories
+# =========================
+.cache/
+.cache/huggingface/
+huggingface_cache/
+models/
+checkpoints/
+
+# =========================
+# Logs and temporary files
+# =========================
+logs/
+*.log
+tmp/
+temp/
+
+# =========================
+# OS-specific files
+# =========================
+desktop.ini
+ehthumbs.db
+
+# =========================
+# Project-specific generated files
+# Keep final CSV summaries if you want them visible on GitHub.
+# Uncomment the following lines if you do NOT want to upload processed results.
+# =========================
+# data/processed/*.csv
+# data/processed/*.json

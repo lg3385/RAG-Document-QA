@@ -1,0 +1,31 @@
+# Core data processing
+numpy>=1.24
+pandas>=2.0
+tqdm>=4.66
+
+# PDF parsing
+pymupdf>=1.23
+
+# Embeddings and reranking
+sentence-transformers>=2.7
+transformers>=4.40
+torch>=2.1
+
+# Vector search
+faiss-cpu>=1.7.4
+
+# Machine learning / evaluation utilities
+scikit-learn>=1.3
+
+# Notebook environment
+jupyter>=1.0
+ipykernel>=6.29
+
+# Visualization for analysis and evaluation
+matplotlib>=3.7
+
+# Optional: environment variable management for future LLM API use
+python-dotenv>=1.0
+
+# Optional: uncomment if adding LLM answer generation with OpenAI API
+# openai>=1.0
